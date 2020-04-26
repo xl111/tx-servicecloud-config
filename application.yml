@@ -9,6 +9,6 @@ spring:
     name: txservicecloud-config-tx-dev
 ---
 spring:
-  profiles: dev
+  profiles: test
   application:      #测试环境
     name: txservicecloud-config-tx-test
