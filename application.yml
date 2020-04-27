@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+     - dev
+---
+spring:
+  profiles: dev
+  application:      #开发环境
+    name: txservicecloud-config-tx-dev
+---
+spring:
+  profiles: test
+  application:      #测试环境
+    name: txservicecloud-config-tx-test
